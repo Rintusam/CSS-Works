@@ -18,10 +18,13 @@ body{
     min-width: 50%;
     min-height :70px ;
     display: flex;
-    justify-content: center;
-    align-items: center;
     line-height: 5px;
+    margin-left: 100px;
     
+}
+
+.content{
+    margin-left: 50px;
 }
 .child {
    
@@ -40,7 +43,8 @@ body{
 }
 
 .content>h1{
-    padding-left: 100px;
+    padding-left: 130px;
+    padding-top: 50px;
 }
 .ab>p{
     padding-left: 65px;
@@ -70,7 +74,9 @@ body{
     line-height: 3px;
 }
 
-.child>img{
-    width: 20px;
-    height: 20px;
+.image>img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
 }
