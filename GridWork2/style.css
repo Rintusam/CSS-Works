@@ -1,0 +1,27 @@
+.parent{
+    width: 70%;
+    height: 500px;
+    border:  1px black solid;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.child{
+    border: 1px blue solid;
+    background-color: bisque;
+}
+
+.parent>:nth-child(1){
+
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.parent>:nth-child(5){
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

@@ -1,0 +1,30 @@
+.border{
+    border: 2px black solid;
+}
+
+.parent{
+    width: 350px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+}
+
+.child{
+    width: 140px;
+    height: 200px;
+    float: left;
+
+}
+
+.parent>:nth-child(1){
+    background-color: aqua;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.parent>:nth-child(2){
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.border{
+        border: 1px black solid;
+}
+
+.parent{
+    width: 300px;
+    height: 150px;
+}
+
+.bg-sucess{
+    background-color: green;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+
+.bg-info{
+    background-color: purple;
+}
+
+.bg-purple{
+    background-color: aqua;
+}

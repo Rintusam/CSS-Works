@@ -1,0 +1,29 @@
+.parent{
+    width: 80%;
+    height: 600px;
+    border: 1px black solid;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.child{
+    border: 1px blue solid;
+    background-color: blueviolet;
+}
+
+
+.parent>:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: brown;
+}
+
+.parent>:nth-child(4){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: beige;
+}
